@@ -1,0 +1,58 @@
+.container-fluid{
+    text-align: center;
+    background-color:rgb(170, 235, 247);
+    width: 1000px;
+    height: 525px;
+    margin-left: 10%;
+    
+}
+.container-fluid2{
+  text-align: center;
+  background-color:rgb(170, 235, 247);
+  width: 1000px;
+  margin-left: 10%;
+  
+}
+.navigator button {
+    cursor: pointer;
+    padding: 0.5rem 1.3rem;
+    border: 1px solid #439ee9;
+    background-color: rgb(170, 235, 247);
+    color: white;
+    border-radius: 12px;
+    margin-right: 2rem;
+    margin-top: 0.4rem;
+    }
+  .navigator button:hover,
+  .navigator button:active {
+    background-color: rgb(255, 67, 67);
+    border-color: #51e943;
+  }
+.navigator{
+    align-items: center;
+    background-color: #a6a8bf;
+    text-align: right;
+    height: 60px;
+}
+.main-div {
+    color: white;
+    font-style: italic;
+}
+.pageBody button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #439ee9;
+    background-color: #a6a8bf;
+    color: white;
+    width: 500px;
+    border-radius: 12px;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    }
+  .pageBody button:hover,
+  .pageBody button:active {
+    background-color: rgb(104, 241, 104);
+    border-color: #51e943;
+  }
+  
+ 
