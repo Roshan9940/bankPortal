@@ -1,0 +1,34 @@
+
+.Error_page  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://internetdevels.com/sites/default/files/public/blog_preview/404_page_cover.jpg);
+    height: 500px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h3{
+ font-size:30px;
+ }
+ 
+  .four_zero_four_bg h3{
+       font-size:40px;
+       }
+       
+       .link_404{      
+  color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+  .contant_box_404{ margin-top:-50px;}
+.Erdiv{
+  background-color: white;
+    height:100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}

@@ -11,7 +11,7 @@ const SubmitApplicationPopUp=(props)=>{
            <h2>{props.title}</h2>
         </header>
         <div className="contentz">
-            <p>Your Application Will Be Processed In Next 6-7 Business Days</p>
+            <p>{props.message}</p>
            
         </div>
         <footer className="actions">

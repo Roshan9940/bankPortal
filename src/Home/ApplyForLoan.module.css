@@ -1,0 +1,95 @@
+
+.loanapp__control select {
+    
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 25rem;
+    font-size: large;
+    max-width: 100%;
+  }
+  .loanapp__control input {
+    
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 25rem;
+    max-width: 100%;
+  }
+  .loanapp__control select {
+    
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 25rem;
+    max-width: 100%;
+  }
+.loanapp__control label {
+    font-weight: bold;
+    
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .loanapp__control button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #439ee9;
+    background-color: #a6a8bf;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .loanapp__control button:hover,
+  .loanapp__control button:active {
+    background-color: #43e967;
+    border-color: #51e943;
+  }
+.navigator button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #439ee9;
+    background-color: rgb(170, 235, 247);
+    color: white;
+    border-radius: 12px;
+    margin-right: 2rem;
+    margin-top: 0.29rem;
+    }
+  .navigator button:hover,
+  .navigator button:active {
+    background-color: rgb(255, 67, 67);
+    border-color: #51e943;
+  }
+.navigator{
+    align-items: center;
+    background-color: #a6a8bf;
+    text-align: right;
+    height: 60px;
+}
+.main-div {
+    color: white;
+    font-style: italic;
+    height: max-content;
+}
+.pageBody button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #439ee9;
+    background-color: #a6a8bf;
+    color: white;
+    width: 500px;
+    border-radius: 12px;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    }
+  .pageBody button:hover,
+  .pageBody button:active {
+    background-color: rgb(104, 241, 104);
+    border-color: #51e943;
+  }
+  
+ 
