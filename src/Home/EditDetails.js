@@ -331,9 +331,9 @@ const submitHandler=(event)=>{
 
         </div>
        </div>
-      <div className='new-reg__actions'>
-         <button className="btn btn-info" style={{width:"160px"}} type='submit'>Edit and Submit</button>
-        <p style={{color:"#e5e5ef"}}>_</p>
+      <div className='updateDetails__actions'>
+         <button type='submit'>Edit and Submit</button>
+        
       </div>
     </form>
     </div>
