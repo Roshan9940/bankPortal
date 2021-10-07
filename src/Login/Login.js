@@ -3,6 +3,7 @@ import { useHistory } from 'react-router';
 import LoginForm from './LoginForm';
 import './Login.css';
 import axios from 'axios';
+import '../UI/PopUp.css'
 
 
 const Login = (props) => {

@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import './App.css';
 import Home from './Home/Home'
 import Login from './Login/Login'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Registration from './Registration/Registration'
-import ApplyForLoan from './Home/ApplyForLoan';
-import EditDetails from './Home/EditDetails';
 import Error from './Error/Error';
 import Background from './Assets/bank-building.jpg'
+const Registration = lazy(() => import('./Registration/Registration'));
+const ApplyForLoan = lazy(() => import('./Home/ApplyForLoan'));
+const EditDetails = lazy(() => import('./Home/EditDetails'));
 
 function App() {
   const Auth=()=>{
@@ -35,18 +35,20 @@ function App() {
   return (
     
     <Router>
+      <Suspense fallback={<div>Loading...</div>}>
     <Switch>
     <div >
       <div style={{ 
      backgroundImage: `url(${Background})`
         }}><Route exact path="/" component={Login} /></div>
-      <div style={{backgroundColor:"#87CEFA"}}><Route path="/Registration" component={Registration} /></div>
+      <div><Route path="/Registration" component={Registration} /></div>
       <div ><PrivateRoute path="/Home" component={Home} /></div>
       <div ><PrivateRoute path="/ApplyForLoan" component={ApplyForLoan} /></div>
       <div><PrivateRoute path="/EditDetails" component={EditDetails} /></div>
       <div><Route exact path="/Error" component={Error} /></div>
     </div>  
     </Switch>
+    </Suspense>
     </Router>
     
   );

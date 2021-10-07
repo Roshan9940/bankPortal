@@ -9,6 +9,13 @@
     font-size: large;
     max-width: 100%;
   }
+  .container-fluid__ApplyForLoan{
+    text-align: center;
+    background-color:rgb(170, 235, 247);
+    width: 1000px;
+    margin-left: 10%;
+    
+  }
   .loanapp__control input {
     
     font: inherit;
@@ -18,6 +25,7 @@
     width: 25rem;
     max-width: 100%;
   }
+ 
   .loanapp__control select {
     
     font: inherit;

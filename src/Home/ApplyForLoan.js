@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import a from './ApplyForLoan.module.css'
+import './ApplyForLoan.css'
 import axios from "axios";
 import SubmitApplicationPopUp from "../UI/SubmitApplicationPopUp";
 import NavigationBar from "./NavigationBar";
@@ -173,11 +173,11 @@ const loanTypeHandler=(Event)=>{
 
     <div className="main-div"  >
         <NavigationBar/>
-        <div className="container-fluid2 mb-5" >
+        <div className="container-fluid__ApplyForLoan mb-5" >
        
         {popUpCondition&&<SubmitApplicationPopUp title="Submitted Successfull" message="Your Application Will Be Processed In Next 6-7 Business Days" ></SubmitApplicationPopUp>}
 
-        <div className={a.loanapp__control}>
+        <div className="loanapp__control">
             <br/>        
             <h4>Please Select The Type Of Loan You Wish To Apply For From The Drop Down</h4>
             <label htmlFor="loanType"></label>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import axios from 'axios';
-import '../Registration/RegistrationForm.css';
+import './EditDetails.css';
 import NavigationBar from './NavigationBar';
 import SubmitApplicationPopUp from '../UI/SubmitApplicationPopUp';
 import { useHistory } from 'react-router';
@@ -146,11 +146,11 @@ const submitHandler=(event)=>{
       <div>
          {popUpCondition&&<SubmitApplicationPopUp title="Successfull!!" message="Details Updated Successfully" ></SubmitApplicationPopUp>}
     <NavigationBar/>
-    <div className="new-register" >
+    <div className="editDetails" >
       
       <form onSubmit={submitHandler} >
-      <div className='new-reg__controls'>
-        <div className='new-reg__control'>
+      <div className='updateDetails__controls'>
+        <div className='updateDetails__control'>
           <h2>Edit Details</h2>
           <div className="row">
             <div className="col-lg-4">
@@ -332,7 +332,8 @@ const submitHandler=(event)=>{
         </div>
        </div>
       <div className='new-reg__actions'>
-         <button type='submit'>Edit and Submit</button>
+         <button className="btn btn-info" style={{width:"160px"}} type='submit'>Edit and Submit</button>
+        <p style={{color:"#e5e5ef"}}>_</p>
       </div>
     </form>
     </div>

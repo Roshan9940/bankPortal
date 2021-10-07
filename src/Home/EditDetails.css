@@ -1,13 +1,56 @@
-
+.editDetails {
+  text-align: left;
+  background-color: #e5e5ef;
+  padding: 1rem;
+  max-width: 100%;
   
-  .new-reg__control label {
+  text-align: right;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.editDetails h2{
+  text-align: center;
+}
+.editDetails button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.7rem;
+  border: 1px solid #439ee9;
+  background-color: #a6a8bf;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.EditDetails button:hover,
+.EditDetails button:active {
+  background-color: #43e967;
+  border-color: #51e943;
+}
+
+.EditDetails button.alternative {
+  color: #06e937;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.EditDetails button.alternative:hover,
+.EditDetails button.alternative:active {
+  background-color: #439ee9;
+}
+.updateDetails__controls {
+  text-align: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  .updateDetails__control label {
   
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
   }
   
-  .new-reg__control input {
+  .updateDetails__control input {
     
     font: inherit;
     padding: 0.5rem;
@@ -16,7 +59,7 @@
     width: 20rem;
     max-width: 100%;
   }
-  .new-reg__control select {
+  .updateDetails__control select {
     
     font: inherit;
     padding: 0.5rem;
@@ -26,13 +69,7 @@
     max-width: 100%;
   }
   
-  .new-reg__actions {
-    text-align: left;
-  } 
-.navigator{
-    align-items: center;
-    background-color: #a6a8bf;
-    text-align: right;
-    height: 60px;
-}
+  .updateDetails__actions {
+    text-align: center;
+  }
  
